@@ -52,8 +52,8 @@ dat = read.table(
 ##################################################
 
 dat <- dat[dat$max_pval <= 0.01, ]
-dat <- dat[dat$MCD_avg_log2FC <= -0.58 | dat$MCD_avg_log2FC >= 0.58, ]
-dat <- dat[dat$FSGS_avg_log2FC <= -0.58 | dat$FSGS_avg_log2FC >= 0.58, ]
+dat <- dat[dat$MCD_avg_log2FC <= -1 | dat$MCD_avg_log2FC >= 1, ]
+dat <- dat[dat$FSGS_avg_log2FC <= -1 | dat$FSGS_avg_log2FC >= 1, ]
 
 dat$external_gene_name <- dat$Gene
 

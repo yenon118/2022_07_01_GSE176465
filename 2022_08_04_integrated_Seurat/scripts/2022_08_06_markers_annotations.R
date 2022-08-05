@@ -52,7 +52,7 @@ dat = read.table(
 ##################################################
 
 dat <- dat[dat$p_val <= 0.01, ]
-dat <- dat[dat$avg_log2FC <= -0.58 | dat$avg_log2FC >= 0.58, ]
+dat <- dat[dat$avg_log2FC <= -1 | dat$avg_log2FC >= 1, ]
 
 dat$external_gene_name <- dat$gene
 
