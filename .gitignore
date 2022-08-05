@@ -1,0 +1,13 @@
+*/output/
+*/reference/
+*/data/
+*/scripts/log*
+*/scripts/*.out
+*/scripts/*.log
+
+2022_06_07_Seurat
+2022_06_16_Seurat
+2022_06_17_Seurat
+2022_06_18_Seurat
+2022_06_22_Seurat_cell_counts
+2022_06_22_Seurat_overlap_annotations
