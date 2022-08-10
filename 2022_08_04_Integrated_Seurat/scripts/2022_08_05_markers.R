@@ -59,7 +59,8 @@ libraries <- c(
   "ImmGenData",
   "DatabaseImmuneCellExpressionData",
   "NovershternHematopoieticData",
-  "MonacoImmuneData"
+  "MonacoImmuneData",
+  "Experiment"
 )
 
 for (i in 1:length(libraries)) {
